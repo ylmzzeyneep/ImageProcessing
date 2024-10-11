@@ -19,7 +19,7 @@ else:
     logaritmik_görüntü = normalized_görüntü.astype(np.uint8)
 
     # Görüntüyü kaydet
-    cv2.imwrite('logaritmik_img.jpg', logaritmik_görüntü)
+    cv2.imwrite('logaritmik_görüntü.jpg', logaritmik_görüntü)
 
     # Görüntüyü göster (isteğe bağlı)
     cv2.imshow('Logaritmik Görüntü', logaritmik_görüntü)
